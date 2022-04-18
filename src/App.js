@@ -1,9 +1,10 @@
 import './App.css';
+import { Home } from './components/Home.component';
 
 function App() {
   return (
-    <div className="App">
-      test
+    <div className="h-screen bg-purple-900">
+      <Home />
     </div>
   );
 }
