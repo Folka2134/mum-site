@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Cover = () => {
   return (
-    <div className='h-[45vh] lg:h-[90vh] w-full bg-pink-200 flex justify-center items-center'>
-      <div>logo</div>
+    <div className="h-[45vh] lg:h-[90vh] w-full flex justify-center items-center bg-logo-bg bg-contain bg-no-repeat bg-center">
+
     </div>
   )
 }

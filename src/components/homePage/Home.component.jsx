@@ -4,7 +4,7 @@ import { MainContent } from './MainContent.component'
 
 export const Home = () => {
   return (
-    <div className='h-full bg-purple-400 mx-12 lg:mx-32 flex flex-col items-center'>
+    <div className='h-full mx-12 lg:mx-32 flex flex-col items-center'>
       <Cover />
       <MainContent />
     </div>
