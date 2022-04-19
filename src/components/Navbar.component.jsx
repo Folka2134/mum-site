@@ -41,7 +41,7 @@ export const Navbar = () => {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
-        <div className={`w-52 mt-12 absolute ${openNav ? "flex flex-col" : "hidden"}`}>
+        <div className={`w-52 mt-12 absolute ${openNav ? "flex flex-col" : "-translate-y-72"} transition-all delay-75`}>
           <ul className='bg-blue-800 text-white flex flex-col items-center rounded-t-sm'>
             <li className='p-2 cursor-pointer'>Home</li>
             <li className='p-2 cursor-pointer whitespace-nowrap'>About Us</li>
