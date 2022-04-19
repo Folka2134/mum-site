@@ -42,11 +42,11 @@ export const Navbar = () => {
           />
         </svg>
         <div className={`w-52 mt-12 absolute ${openNav ? "flex flex-col" : "-translate-y-72"} transition-all delay-75`}>
-          <ul className='bg-blue-800 text-white flex flex-col items-center rounded-t-sm'>
-            <li className='p-2 cursor-pointer'>Home</li>
-            <li className='p-2 cursor-pointer whitespace-nowrap'>About Us</li>
-            <li className='p-2 cursor-pointer'>Packages</li>
-            <li className='p-2 cursor-pointer'>Contact</li>
+          <ul className='bg-blue-800 text-white flex flex-col items-center rounded-t-sm text-center'>
+            <li className='w-full p-2 cursor-pointer hover:bg-blue-700 transition-colors delay-75'>Home</li>
+            <li className='w-full p-2 cursor-pointer whitespace-nowrap hover:bg-blue-700 transition-colors delay-75'>About Us</li>
+            <li className='w-full p-2 cursor-pointer hover:bg-blue-700 transition-colors delay-75'>Packages</li>
+            <li className='w-full p-2 cursor-pointer hover:bg-blue-700 transition-colors delay-75'>Contact</li>
           </ul>
           <div className='bg-blue-400 flex justify-between p-5 rounded-b-xl'>
             <button className='hover:text-white'>Account</button>
