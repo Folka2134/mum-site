@@ -10,7 +10,7 @@ export const Contact = () => {
     <div className='contact my-24 py-24 border-t-2 border-b-2 text-center'>
       <h1 className='text-3xl font-bold'>Contact us</h1>
       <p className='text-lg mt-5'>Get in touch for any queries regarding our packages or to book a free consultation!</p>
-      <form onSubmit={submit} className="w-full mt-12 grid justify-center">
+      <form onSubmit={submit} action="send" enctype="multipart/form-data" className="w-full mt-12 grid justify-center">
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
