@@ -25,10 +25,10 @@ export const Navbar = () => {
           <li className='px-4 cursor-pointer hover:scale-125 transition-transform delay-75 duration-300'>Logout</li>
         </ul>
       </div>
-      <div className='bg-pink-700 h-12 w-full flex md:hidden justify-end mx-12'>
+      <div className='h-12 w-full flex md:hidden justify-end mx-12'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`w-6 h-6 mr-4 cursor-pointer text-purple-200 mt-3 ${openNav ? "rotate-90" : ""} transition-all`}
+          className={`w-6 h-6 mr-4 cursor-pointer text-pink-500 mt-3 ${openNav ? "rotate-90" : ""} transition-all`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -41,16 +41,16 @@ export const Navbar = () => {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
-        <div className={`w-52 mt-12 absolute ${openNav ? "flex flex-col" : "-translate-y-72"} transition-all delay-75`}>
-          <ul className='bg-blue-800 text-white flex flex-col items-center rounded-t-sm text-center'>
-            <li className='w-full p-2 cursor-pointer hover:bg-blue-700 transition-colors delay-75'>Home</li>
-            <li className='w-full p-2 cursor-pointer whitespace-nowrap hover:bg-blue-700 transition-colors delay-75'>About Us</li>
-            <li className='w-full p-2 cursor-pointer hover:bg-blue-700 transition-colors delay-75'>Packages</li>
-            <li className='w-full p-2 cursor-pointer hover:bg-blue-700 transition-colors delay-75'>Contact</li>
+        <div className={`w-52 mt-12 absolute transition-all delay-75 ${openNav ? "flex flex-col" : "-translate-y-72"}`}>
+          <ul className='bg-pink-500 text-white flex flex-col items-center rounded-t-sm text-center border-2 border-y-0 '>
+            <li className='w-full p-2 cursor-pointer hover:bg-white hover:text-black transition-colors delay-75'>Home</li>
+            <li className='w-full p-2 cursor-pointer whitespace-nowrap hover:bg-white hover:text-black transition-colors delay-75'>About Us</li>
+            <li className='w-full p-2 cursor-pointer hover:bg-white hover:text-black transition-colors delay-75'>Packages</li>
+            <li className='w-full p-2 cursor-pointer hover:bg-white hover:text-black transition-colors delay-75'>Contact</li>
           </ul>
-          <div className='bg-blue-400 flex justify-between p-5 rounded-b-xl'>
-            <button className='hover:text-white'>Account</button>
-            <button className='hover:text-white'>Logout</button>
+          <div className='bg-white flex justify-between border-2 p-5 rounded-b-xl'>
+            <button className='hover:text-pink-500'>Account</button>
+            <button className='hover:text-pink-500'>Logout</button>
           </div>
         </div>
       </div>
