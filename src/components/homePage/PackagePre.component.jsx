@@ -2,17 +2,43 @@ import React from 'react'
 
 export const PackagePre = () => {
   return (
-    <div className='h-[1000px] md:h-[1000px] grid grid-rows-4 md:grid-rows-2 grid-cols-1 md:grid-cols-2 bg-purple-200 md:m-24' >
+    <div className=' grid grid-cols-2 lg:grid-cols-4 bg-purple-200 md:m-6' >
       <div className='border-2 border-black flex-1'>
-        <div className='h-[40%] border-2'><img src="#" alt="#" /></div>
-        <div className='grid'>
+        {/* <div className='h-[40%] border-2'><img src="#" alt="#" /></div> */}
+        <div className='flex flex-col items-center justify-center'>
           <h1 className='text-2xl text-center'>Package Title</h1>
-          <p>Short description...</p>
+          <p className=''>Short description...</p>
+          <button className='m-1 p-4 bg-pink-500 w-52'>Overview</button>
+          <button className='p-4 bg-pink-500 w-52'>Unlock</button>
         </div>
       </div>
-      <div className='border-2 border-black flex-1 '>2</div>
-      <div className='border-2 border-black flex-1'>3</div>
-      <div className='border-2 border-black flex-1'>4</div>
+      <div className='border-2 border-black flex-1 '>
+        {/* <div className='h-[40%] border-2'><img src="#" alt="#" /></div> */}
+        <div className='flex flex-col items-center'>
+          <h1 className='text-2xl text-center'>Package Title</h1>
+          <p className=''>Short description...</p>
+          <button className='m-1 p-4 bg-pink-500 w-52'>Overview</button>
+          <button className='p-4 bg-pink-500 w-52'>Unlock</button>
+        </div>
+      </div>
+      <div className='border-2 border-black flex-1'>
+        {/* <div className='h-[40%] border-2'><img src="#" alt="#" /></div> */}
+        <div className='flex flex-col items-center'>
+          <h1 className='text-2xl text-center'>Package Title</h1>
+          <p className=''>Short description...</p>
+          <button className='m-1 p-4 bg-pink-500 w-52'>Overview</button>
+          <button className='p-4 bg-pink-500 w-52'>Unlock</button>
+        </div>
+      </div>
+      <div className='border-2 border-black flex-1'>
+        {/* <div className='h-[40%] border-2'><img src="#" alt="#" /></div> */}
+        <div className='flex flex-col items-center'>
+          <h1 className='text-2xl text-center'>Package Title</h1>
+          <p className=''>Short description...</p>
+          <button className='m-1 p-4 bg-pink-500 w-52'>Overview</button>
+          <button className='p-4 bg-pink-500 w-52'>Unlock</button>
+        </div>
+      </div>
     </div>
   )
 }
