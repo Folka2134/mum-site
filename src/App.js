@@ -4,7 +4,7 @@ import { Navbar } from './components/Navbar.component';
 
 function App() {
   return (
-    <div className="h-full bg-[#FAFAF8]">
+    <div className="h-full min-w-[450px] bg-[#FAFAF8]">
       <Navbar />
       <Home />
     </div>
