@@ -12,8 +12,8 @@ export const PackagePre = () => {
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
               rerum quo quos laborum at esse eveniet neque praesentium voluptate minus eius? </p>
-            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Overview</button>
-            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Unlock</button>
+            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Overview</button>
+            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Unlock</button>
           </div>
         </div>
         <div className='rounded'>
@@ -23,8 +23,8 @@ export const PackagePre = () => {
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
               rerum quo quos laborum at esse eveniet neque praesentium voluptate minus eius? </p>
-            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Overview</button>
-            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Unlock</button>
+            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Overview</button>
+            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Unlock</button>
           </div>
         </div>
         <div className='rounded'>
@@ -34,8 +34,8 @@ export const PackagePre = () => {
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
               rerum quo quos laborum at esse eveniet neque praesentium voluptate minus eius? </p>
-            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Overview</button>
-            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Unlock</button>
+            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Overview</button>
+            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Unlock</button>
           </div>
         </div>
         <div className='rounded'>
@@ -45,8 +45,8 @@ export const PackagePre = () => {
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
               rerum quo quos laborum at esse eveniet neque praesentium voluptate minus eius? </p>
-            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Overview</button>
-            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-150 hover:bg-green-200 duration-300'>Unlock</button>
+            <button className='mt-8 mb-1 p-4 bg-pink-500 w-52 rounded border-gray-300 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Overview</button>
+            <button className='p-4 bg-pink-500 w-52 rounded border-gray-200 transition ease-in-out delay-75 hover:bg-green-200 duration-300'>Unlock</button>
           </div>
         </div>
       </div>
