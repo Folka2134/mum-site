@@ -5,9 +5,9 @@ export const PackagePre = () => {
     <div className='text-center'>
       <h1 className='text-[36px] mb-12 font-semibold'>Our Packages</h1>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 md:m-6'>
-        <div className='border-2 border-black rounded'>
-          <div className='h-72 bg-package-bg w-full bg-center'></div>
-          <div className='flex flex-col items-center justify-center p-20 pt-12'>
+        <div className='border-black rounded'>
+          <div className='h-72 bg-package-bg w-full bg-center rounded-full shadow-lg'></div>
+          <div className='flex flex-col items-center justify-center p-12'>
             <h1 className='text-2xl text-center mb-5'>Package Title</h1>
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
@@ -16,9 +16,9 @@ export const PackagePre = () => {
             <button className='p-4 bg-pink-500 w-52'>Unlock</button>
           </div>
         </div>
-        <div className='border-2 border-black rounded'>
-          <div className='h-72 bg-package2-bg w-full bg-center'></div>
-          <div className='flex flex-col items-center p-20'>
+        <div className='rounded'>
+          <div className='h-72 bg-package2-bg w-full bg-center rounded-full shadow-lg'></div>
+          <div className='flex flex-col items-center p-12'>
             <h1 className='text-2xl text-center mb-5'>Package Title</h1>
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
@@ -27,9 +27,9 @@ export const PackagePre = () => {
             <button className='p-4 bg-pink-500 w-52'>Unlock</button>
           </div>
         </div>
-        <div className='border-2 border-black rounded'>
-          <div className='h-72 bg-package4-bg w-full bg-center'></div>
-          <div className='flex flex-col items-center p-20'>
+        <div className='rounded'>
+          <div className='h-72 bg-package4-bg w-full bg-center rounded-full shadow-lg'></div>
+          <div className='flex flex-col items-center p-12'>
             <h1 className='text-2xl text-center mb-5'>Package Title</h1>
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
@@ -38,9 +38,9 @@ export const PackagePre = () => {
             <button className='p-4 bg-pink-500 w-52'>Unlock</button>
           </div>
         </div>
-        <div className='border-2 border-black rounded'>
-          <div className='h-72 bg-package3-bg w-full bg-center'></div>
-          <div className='flex flex-col items-center p-20'>
+        <div className='rounded'>
+          <div className='h-72 bg-package3-bg w-full bg-center rounded-full shadow-lg'></div>
+          <div className='flex flex-col items-center p-12'>
             <h1 className='text-2xl text-center mb-5'>Package Title</h1>
             <p className='text-center'>Short description...
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quis corrupti assumenda aspernatur,
