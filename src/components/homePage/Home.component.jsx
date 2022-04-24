@@ -1,5 +1,4 @@
 import React from 'react'
-import { Footer } from '../Footer.component'
 import { Cover } from './Cover.component'
 import { MainContent } from './MainContent.component'
 
