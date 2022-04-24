@@ -3,7 +3,7 @@ import { PackagePre } from './PackagePre.component'
 
 export const MainContent = () => {
   return (
-    <div className='bg-blue-300 h-full min-h-screen w-full mt-12 pt-24 grid place-items-center'>
+    <div className='h-full min-h-screen w-full mt-12 pt-24 grid place-items-center border-t-2'>
       <PackagePre />
     </div>
   )
