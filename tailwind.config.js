@@ -10,6 +10,7 @@ module.exports = {
         'package2-bg' : "url('./images/package2.jpg')",
         'package3-bg' : "url('./images/package3.jpg')",
         'package4-bg' : "url('./images/package4.jpg')",
+        'about-pic' : "url('./images/innovation-coaching.jpg')",
       }
     },
   },

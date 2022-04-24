@@ -1,9 +1,11 @@
 import React from 'react'
+import { About } from './About.component'
 import { PackagePre } from './PackagePre.component'
 
 export const MainContent = () => {
   return (
-    <div className='h-full min-h-screen w-full mt-12 pt-24 grid place-items-center border-t-2'>
+    <div className='h-full min-h-screen w-full pt-12 grid place-items-center border-t-2'>
+      <About />
       <PackagePre />
     </div>
   )

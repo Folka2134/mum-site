@@ -45,10 +45,10 @@ export const Navbar = () => {
         </svg>
         <div className={`w-52 mt-12 absolute transition-all delay-75 ${openNav ? "flex flex-col" : "-translate-y-72"}`}>
           <ul className='bg-pink-500 text-white flex flex-col items-center rounded-t-sm text-center border-2 border-y-0 '>
-            <Link to="home" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Home</li></Link>
-            <Link to="about" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300 whitespace-nowrap'>About Us</li></Link>
-            <Link to="packages" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Packages</li></Link>
-            <Link to="contact" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Contact</li></Link>
+            <Link to="home" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Home</li></Link>
+            <Link to="about" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300 whitespace-nowrap'>About Us</li></Link>
+            <Link to="packages" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Packages</li></Link>
+            <Link to="contact" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Contact</li></Link>
           </ul>
           <div className='bg-white flex justify-between border-2 p-5 rounded-b-xl'>
             <button className='hover:text-pink-500'>Account</button>
