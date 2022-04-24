@@ -5,7 +5,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: { 
-        'logo-bg' : "url('./images/Baobab-Adansonia.jpg')"
+        'logo-bg' : "url('./images/Baobab-Adansonia.jpg')",
+        'package-bg' : "url('./images/package.jpg')",
+        'package2-bg' : "url('./images/package2.jpg')",
+        'package3-bg' : "url('./images/package3.jpg')",
+        'package4-bg' : "url('./images/package4.jpg')",
       }
     },
   },
