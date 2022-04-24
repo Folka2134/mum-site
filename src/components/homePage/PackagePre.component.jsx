@@ -2,7 +2,7 @@ import React from 'react'
 
 export const PackagePre = () => {
   return (
-    <div className=' grid grid-cols-2 lg:grid-cols-4 bg-purple-200 md:m-6' >
+    <div className='grid grid-cols-1 lg:grid-cols-2 bg-purple-200 md:m-6' >
       <div className='border-2 border-black flex-1'>
         {/* <div className='h-[40%] border-2'><img src="#" alt="#" /></div> */}
         <div className='flex flex-col items-center justify-center'>
