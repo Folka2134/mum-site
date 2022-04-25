@@ -47,7 +47,7 @@ export const Contact = () => {
               Send
             </button>
           </div>
-          <div className="md:w-2/3"></div>
+          {/* <div className="md:w-2/3"></div> */}
         </div>
       </form>
     </div>
