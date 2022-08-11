@@ -27,6 +27,9 @@ export const Navbar = () => {
           <li className='px-4 cursor-pointer hover:bg-pink-300 transition-all delay-75 duration-300 rounded-full'>Logout</li>
         </ul>
       </div>
+
+      {/* MOBILE NAV-BAR */}
+
       <div className='h-12 w-full flex md:hidden justify-end mx-12'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -43,16 +46,16 @@ export const Navbar = () => {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
-        <div className={`w-52 mt-12 absolute transition-all delay-75 ${openNav ? "flex flex-col" : "-translate-y-72"}`}>
-          <ul className='bg-pink-500 text-white flex flex-col items-center rounded-t-sm text-center border-2 border-y-0 '>
-            <Link to="home" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Home</li></Link>
-            <Link to="about" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300 whitespace-nowrap'>About Us</li></Link>
-            <Link to="packages" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Packages</li></Link>
-            <Link to="contact" smooth={true}><li className='h-full p-2 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Contact</li></Link>
+        <div className={`w-52 mt-14 absolute transition-all delay-75 ${openNav ? "flex flex-col" : "translate-x-72"}`}>
+          <ul className='bg-green-200 text-black flex flex-col items-center  text-center border-2 border-gray-100 rounded-md'>
+            <Link to="home" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300 rounded-t-md'>Home</li></Link>
+            <Link to="about" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300 whitespace-nowrap'>About Us</li></Link>
+            <Link to="packages" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300'>Packages</li></Link>
+            <Link to="contact" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300 rounded-b-md'>Contact</li></Link>
           </ul>
-          <div className='bg-white flex justify-between border-2 p-5 rounded-b-xl'>
-            <button className='hover:text-pink-500'>Account</button>
-            <button className='hover:text-pink-500'>Logout</button>
+          <div className='bg-white flex justify-evenly border-2 border-t-0 border-gray-100  h-24 rounded-b-xl'>
+            <button className='w-full hover:text-white hover:bg-pink-400 transition-all duration-300 rounded-sm'>Account</button>
+            <button className='w-full hover:text-white hover:bg-pink-400 transition-all duration-300 rounded-sm'>Logout</button>
           </div>
         </div>
       </div>
