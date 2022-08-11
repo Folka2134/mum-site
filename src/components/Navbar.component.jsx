@@ -14,17 +14,17 @@ export const Navbar = () => {
   }
 
   return (
-    <div className='bg-green-200 h-12 flex justify-center items-center sticky top-0 border-b-2 border-[#C8F7F3]'>
+    <div className='bg-green-200 h-12 flex justify-center items-center sticky top-0 border-b-2 border-[#C8F7F3] shadow-sm'>
       <div className='bg-[green-600] h-12 w-full hidden md:flex justify-between items-center mx-32'>
         <ul className='flex items-center'>
-          <Link to="home" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Home</li></Link>
-          <Link to="about" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300 whitespace-nowrap'>About Us</li></Link>
-          <Link to="packages" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Packages</li></Link>
-          <Link to="contact" smooth={true}><li className='h-full px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Contact</li></Link>
+          <Link to="home" smooth={true}><li className='h-full px-4 cursor-pointer  hover:bg-green-100 transition-all delay-75 duration-300 rounded-full'>Home</li></Link>
+          <Link to="about" smooth={true}><li className='h-full px-4 cursor-pointer hover:bg-green-100 transition-all delay-75 duration-300 rounded-full whitespace-nowrap '>About Us</li></Link>
+          <Link to="packages" smooth={true}><li className='h-full px-4 cursor-pointer hover:bg-green-100 transition-all delay-75 duration-300 rounded-full'>Packages</li></Link>
+          <Link to="contact" smooth={true}><li className='h-full px-4 cursor-pointer hover:bg-green-100 transition-all delay-75 duration-300 rounded-full'>Contact</li></Link>
         </ul>
         <ul className='flex ml-52'>
-          <li className='px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Account</li>
-          <li className='px-4 cursor-pointer hover:scale-105 transition-transform delay-75 duration-300'>Logout</li>
+          <li className='px-4 cursor-pointer hover:bg-green-100 transition-all delay-75 duration-300 rounded-full'>Account</li>
+          <li className='px-4 cursor-pointer hover:bg-pink-300 transition-all delay-75 duration-300 rounded-full'>Logout</li>
         </ul>
       </div>
       <div className='h-12 w-full flex md:hidden justify-end mx-12'>
