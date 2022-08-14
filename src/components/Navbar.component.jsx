@@ -48,14 +48,14 @@ export const Navbar = () => {
         </svg>
         <div className={`w-52 mt-14 absolute transition-all delay-75 ${openNav ? "flex flex-col" : "translate-x-72"}`}>
           <ul className='bg-green-200 text-black flex flex-col items-center  text-center border-2 border-gray-100 rounded-md'>
-            <Link to="home" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300 rounded-t-md'>Home</li></Link>
-            <Link to="about" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300 whitespace-nowrap'>About Us</li></Link>
-            <Link to="packages" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300'>Packages</li></Link>
-            <Link to="contact" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-300 rounded-b-md'>Contact</li></Link>
+            <Link to="home" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-800 rounded-t-md'>Home</li></Link>
+            <Link to="about" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-800 whitespace-nowrap'>About Us</li></Link>
+            <Link to="packages" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-800'>Packages</li></Link>
+            <Link to="contact" smooth={true}><li className='h-full w-52 p-2 cursor-pointer hover:bg-pink-400 hover:text-white transition-all duration-800 rounded-b-md'>Contact</li></Link>
           </ul>
           <div className='bg-white flex justify-evenly border-2 border-t-0 border-gray-100  h-24 rounded-b-xl'>
-            <button className='w-full hover:text-white hover:bg-pink-400 transition-all duration-300 rounded-sm'>Account</button>
-            <button className='w-full hover:text-white hover:bg-pink-400 transition-all duration-300 rounded-sm'>Logout</button>
+            <button className='w-full hover:text-white hover:bg-pink-400 transition-all duration-800 rounded-sm'>Account</button>
+            <button className='w-full hover:text-white hover:bg-pink-400 transition-all duration-800 rounded-sm'>Logout</button>
           </div>
         </div>
       </div>
