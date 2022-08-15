@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <div className='bg-[#D9E7E8] h-16 flex justify-center items-center sticky top-0 text-lg shadow-md'>
-      <div className='bg-[green-600] h-12 w-full hidden md:flex justify-between items-center mx-32'>
+      <div className='bg-[green-600] h-12 w-full hidden md:flex justify-evenly items-center mx-32'>
         <ul className='flex items-center'>
           <Link to="home" smooth={true}><li className='h-full px-4 cursor-pointer  hover:bg-[#BED2D2] transition-all delay-75 duration-300 rounded-full'>Home</li></Link>
           <Link to="about" smooth={true}><li className='h-full px-4 cursor-pointer hover:bg-[#BED2D2] transition-all delay-75 duration-300 rounded-full whitespace-nowrap '>About Us</li></Link>
