@@ -2,7 +2,7 @@ import React from 'react'
 
 export const PackagePre = () => {
   return (
-    <div className='packages text-center mt-12 pt-12 border-t-2'>
+    <div className='packages text-center border-t-2 pt-44'>
       <h1 className='text-[36px] mb-12 font-semibold'>Our Packages</h1>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 md:m-6'>
         <div className='border-black rounded'>
