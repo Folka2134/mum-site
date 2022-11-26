@@ -1,7 +1,7 @@
-import './App.css';
-import { Footer } from './components/Footer.component';
-import { Home } from './pages/homePage/Home.component'
-import { Navbar } from './components/Navbar.component';
+import "./App.css";
+import { Footer } from "./components/Footer.component";
+import { Home } from "./pages/homePage/Home.component";
+import { Navbar } from "./components/Navbar.component";
 
 function App() {
   return (
