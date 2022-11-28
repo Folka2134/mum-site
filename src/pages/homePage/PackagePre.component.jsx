@@ -5,9 +5,8 @@ export const PackagePre = ({ packages }) => {
     <div className=" packages text-center border-t-2 pt-44">
       <h1 className="text-[36px] mb-12 font-semibold">Our Packages</h1>
       <div className="package-container grid grid-cols-1 lg:grid-cols-2 gap-12 md:m-6">
-        {/* //package1 */}
         {packages.map((packageInfo) => (
-          <div className="border-black rounded">
+          <div key={packageInfo.id} className="border-black rounded">
             <div
               className={`h-72 bg-${packageInfo.id}-bg w-full bg-center rounded-full shadow-lg`}
             ></div>
