@@ -8,6 +8,8 @@ import PackagePage from "./pages/package/PackagePage.component";
 
 import "./index.css";
 
+import packageData from "./data/data";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "packagePage/:id",
-    element: <PackagePage />,
+    element: <PackagePage packageData={packageData} />,
   },
 ]);
 
