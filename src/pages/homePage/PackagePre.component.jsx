@@ -2,15 +2,16 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
 export const PackagePre = ({ packages }) => {
+  console.log(packages);
   return (
     <div className=" packages text-center border-t-2 pt-44">
       <h1 className="text-[36px] mb-12 font-semibold">Our Packages</h1>
       <div className="package-container grid grid-cols-1 lg:grid-cols-2 gap-12 md:m-6">
         {packages.map((packageInfo) => (
           <div key={packageInfo.id} className="border-black rounded">
-            <div
-              className={`h-72 bg-${packageInfo.id}-bg w-full bg-center rounded-full shadow-lg`}
-            ></div>
+            <div className={`h-72  w-full bg-center rounded-full shadow-lg`}>
+              <img src={packageInfo.img} alt="" />
+            </div>
             <div className="flex flex-col items-center justify-center p-12">
               <h1 className="text-2xl text-center mb-5">{packageInfo.title}</h1>
               <p className="text-center">{packageInfo.mini_desc}</p>
