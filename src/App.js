@@ -7,13 +7,11 @@ import PackagePage from "./pages/package/PackagePage.component";
 
 function App() {
   return (
-    <div className="home h-full min-w-[350px] bg-[#FAFAF8]">
-      <Navbar />
+    <div className="home h-full min-w-[350px] bg-[#f1faee]">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/packagePage/:id" element={<PackagePage />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
