@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#A8DADC] h-16 flex justify-center items-center sticky top-0 text-lg shadow-md ">
+    <div className="bg-[#A8DADC] h-16 w-full flex justify-center items-center sticky top-0 text-lg shadow-md ">
       <div className="bg-[#A8DADC] h-12 w-full hidden md:flex justify-evenly items-center mx-32">
         <ul className="flex items-center">
           <Link to="home" smooth={true}>
